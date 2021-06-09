@@ -1,7 +1,6 @@
 r=$RANDOM
 
-echo "$r: This is a test Commit for git\n">>test-commit.txt
-echo "$r: This is a test Commit for git"
+echo "$r">>test-commit.txt
 
 git add .
 git commit -m "$r: Test Commit"
